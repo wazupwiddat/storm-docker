@@ -1,12 +1,14 @@
 zookeeper:
   image: jdub/zookeeper
   ports: 
-    - "49181:2181"
+    - "2181:2181"
+    - "2888:2888"
+    - "3888:3888"
     - "22"
 kafka:
   image: jdub/kafka
   ports:
-    - "49092:9092"
+    - "9092:9092"
   links: 
     - zookeeper:zk
   environment:
