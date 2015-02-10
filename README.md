@@ -1,5 +1,5 @@
 # storm-docker
-This will be used to setup the images that will be used to run Storm, Kafka, and Zookeeper.
+This will be used to setup the images that will be used to run Storm, Kafka, Zookeeper, MongoDB, and Redis.
 
 ## Setup Storm
  * Clone this git project
