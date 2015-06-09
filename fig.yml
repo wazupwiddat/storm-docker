@@ -11,7 +11,7 @@ zookeeper:
     - "3888:3888"
     - "22"
 kafka:
-  image: jdub/kafka
+  image: wurstmeister/kafka
   ports:
     - "9092:9092"
   links: 
