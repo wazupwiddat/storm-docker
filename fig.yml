@@ -1,12 +1,8 @@
 mongodb:
-  image: dockerfile/mongodb
+  image: mongo:latest
   ports:
     - "27017:27017"
     - "28017:28017"
-redis:
-  image: dockerfile/redis
-  ports:
-    - "6379:6379"
 zookeeper:
   image: jdub/zookeeper
   ports: 
